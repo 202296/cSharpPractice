@@ -1,3 +1,5 @@
+// System.IO namespace is a standard .NET namespace that provides classes for working with input and output operations, such as reading from and writing to files, streams, and directories.
+
 using System;
 using System.IO;
 
@@ -47,6 +49,7 @@ abstract class Board
 }
 
 // Class representing the Tic-Tac-Toe game
+// regular class TicTacToeGame inherits from an abstract class Board
 class TicTacToeGame : Board
 {
     // Array to store information about players
